@@ -9,7 +9,7 @@ body{
 
 header {
   max-width: 1440px;
-  background-image: url(images/image_background.png);
+  background-image: url(images/homepage-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -44,13 +44,14 @@ header {
   margin: 0px 30px;
   
   
-  background-color: rgba(255, 255, 255, .5)
+  background-color: rgba(255, 255, 255, .7)
 }
 
 .header_button {
   max-width: 360px;
   padding: 10px;
   background-color: #4A90E2;
+  border: 3px solid white;
   color: white;
   border-radius: 5px;
   
@@ -137,4 +138,25 @@ h4{
   text-transform: uppercase;
   font-weight: 600;
 
+}
+
+/*  Resposive code starts here */
+
+@media screen and (max-width: 600px){
+  .box_qualities {
+    margin: 0px 10px;
+  }
+  
+  .header_button {
+    max-width: 320px;
+  }
+  
+  .article_info p {
+    text-align: left;
+    padding: 0px 20px;
+  }
+  
+  h4 {
+    font-size:14px;
+  }
 }
